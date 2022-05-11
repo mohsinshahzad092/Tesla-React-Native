@@ -1,0 +1,14 @@
+.header{
+
+
+    justify-content: space-between;
+}
+
+.headerTitle{
+
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
