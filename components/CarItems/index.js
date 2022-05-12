@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import { View, Text, ImageBackground, TouchableOpacity } from 'react-native'
+import React, { useState } from 'react'
+import { ScrollView, View, Text, ImageBackground, TouchableOpacity } from 'react-native'
 import styles from "./styles"
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faBattery, faCog, faToolbox, faFan, faKey, faLock, faUnlockAlt } from '@fortawesome/free-solid-svg-icons'
@@ -51,11 +51,11 @@ const CarItem = () => {
 
 
             </View>
+
             {/*Control Icon*/}
 
             <View style={styles.controls}>
                 <TouchableOpacity>
-
                     <View style={styles.controlsButton}>
                         <FontAwesomeIcon style={styles?.icon} icon={faFan} size={24} />
                     </View>
@@ -76,7 +76,7 @@ const CarItem = () => {
 
             </View>
             {/* {Menu} */}
-            <Menu/>
+            <Menu />
         </View>
     )
 }
